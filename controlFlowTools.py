@@ -1,13 +1,9 @@
 """
 To clear the screen in the shell, use:		subprocess.call('cls', shell=True)
-
 You can change the way you call modules: 	import subprocess as sp
-
-Then you can use: 							sp.call('cls', shell=True) 
-
+Then you can use: 				sp.call('cls', shell=True) 
 This will work for any as [varible]: 		import subprocess as foo
-
-And again:									foo.call('cls', shell=True)
+And again:					foo.call('cls', shell=True)
 """
 
 print('\n' + 50*'-' + '\n' 'Below is an example of a nested for loop.' '\n' + 50*'-' + '\n')
